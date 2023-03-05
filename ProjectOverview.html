@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayyab Munir</title>
+    <style>
+
+        @media screen and (max-width: 799px) { 
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #060101 ;
+            color:ghostwhite;
+            font-family: monospace;
+        }
+
+        .video1, .video2{
+            width: 350px;
+            height: 170px;
+        }
+
+        div.videos{
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            align-items: center;
+            row-gap: 75px;
+        }
+
+        h1.sp{
+            position: absolute;
+            top: 45%;
+            left: 3vw;
+            color: rgb(223, 22, 22);
+            z-index: 1000;
+        }
+
+        h1.ep{
+            position: absolute;
+            /* top:  5vh; */
+            left: 3vw;
+            color: rgb(223, 22, 22);
+            z-index: 1000;
+        }
+
+        .video1{
+            position: relative;
+            top: 6vh;
+        }
+
+        .video2{
+            position: relative;
+            top: 5vh;
+        }
+        
+        h1.header{
+            position: relative;
+            width: fit-content;
+            left: 50%;
+            transform: translate(-50%,0);
+            
+        }
+
+        a{
+                text-decoration: underline;
+                color: blue;
+                font-size: 24px;
+                display: flex;
+                justify-content: center;
+                /* display: inline-block; */
+            }
+        }
+
+        @media screen and (min-width: 800px) {
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            h1.header{
+                font-family: monospace;
+                font-size: 72px;
+                display: flex;
+                justify-content: center;
+                background-color: gray;
+                color: white;
+                margin-bottom: 75px;
+            }
+            .video1,.video2{
+                width: 560px;
+                height: 315px;
+            }
+            div.videos{
+                display: flex;
+                column-gap: 50px;
+                justify-content: center;
+            }
+            div.headings{
+                display: flex;
+                justify-content: space-evenly;
+                column-gap: 50px;
+                
+            }
+            body{
+                background-color: rgba(214, 212, 212, 0.986);
+            }
+            .hrr{
+                position: relative;
+                bottom: 65px;
+                
+            }
+            a{
+                text-decoration: underline;
+                color: blue;
+                font-size: 32px;
+                display: flex;
+                justify-content: center;
+                /* display: inline-block; */
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+
+        <h1 class="header">Project Overview</h1>
+
+        <hr class="hrr">
+            <div class="headings">
+                <h1 class="ep">
+                    Electronics Part
+                </h1>
+        
+                <h1 class="sp">
+                    Software Part
+                </h1> 
+
+            </div>
+
+
+
+        <div class="videos">      
+                
+            <iframe   src="https://www.youtube.com/embed/j7KQ2mlwr14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="video1"></iframe>                   
+           
+            
+            <iframe   src="https://www.youtube.com/embed/AFRBUifIYNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="video2"></iframe>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <a href="https://github.com/TayyabMunir01/Executable-File-for-AD5933-Impedance-Analyzer" target="_blank">Download Executable File</a>
+        <br>
+        <a href="https://github.com/TayyabMunir01/Software-for-AD5933-Impedance-Analyzer" target="_blank"> View Code on Github</a>
+
+
+</body>
+</html>
